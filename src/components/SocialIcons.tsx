@@ -83,12 +83,17 @@ const SocialIcons = () => {
         </span>
       </div>
 
-      <a className="resume-button" href="#">
-        <HoverLinks text="RESUME" />
-        <span>
-          <TbNotes />
-        </span>
-      </a>
+      <a
+  className="resume-button"
+  href="/Varun-Mathur-Mern-Full-Stack-Developer.pdf"
+  download
+>
+  <HoverLinks text="RESUME" />
+
+  <span>
+    <TbNotes />
+  </span>
+</a>
     </div>
   );
 };
