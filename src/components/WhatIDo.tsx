@@ -37,7 +37,7 @@ const WhatIDo = () => {
       <div className="what-box">
         <div className="what-box-in">
           <div className="what-border2">
-            <svg width="100%">
+            {/* <svg width="100%">
               <line
                 x1="0"
                 y1="0"
@@ -56,7 +56,7 @@ const WhatIDo = () => {
                 strokeWidth="2"
                 strokeDasharray="7,7"
               />
-            </svg>
+            </svg> */}
           </div>
           <div
             className="what-content what-noTouch"
@@ -85,31 +85,33 @@ const WhatIDo = () => {
               </svg>
             </div>
             <div className="what-corner"></div>
-
             <div className="what-content-in">
-              <h3>DEVELOP</h3>
-              <h4>Description</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae.
-              </p>
+              <h3>MERN Full Stack Developer</h3>
+              {/* <h4>Description</h4> */}
+              {/* <p>
+                Built and maintained responsive, scalable web applications with
+                clean code and intuitive user interfaces, focusing on
+                performance, seamless API integration, and delivering smooth
+                end-to-end user experiences.
+              </p> */}
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">JavaScript</div>
-                <div className="what-tags">TypeScript</div>
-                <div className="what-tags">Three.js</div>
-                <div className="what-tags">React</div>
+                <div className="what-tags">Html</div>
                 <div className="what-tags">Css</div>
-                <div className="what-tags">Node.js</div>
+                <div className="what-tags">Tailwind Css</div>
+                <div className="what-tags">Gsap</div>
+                <div className="what-tags">JavaScript</div>
+                <div className="what-tags">React.js</div>
                 <div className="what-tags">Next.js</div>
+                <div className="what-tags">Node.js</div>
                 <div className="what-tags">Express.js</div>
-                <div className="what-tags">PHP</div>
-                <div className="what-tags">MySql</div>
+                <div className="what-tags">MongoDB</div>
+                <div className="what-tags">MySQL</div>
               </div>
               <div className="what-arrow"></div>
             </div>
           </div>
-          <div
+          {/* <div
             className="what-content what-noTouch"
             ref={(el) => setRef(el, 1)}
           >
@@ -147,7 +149,7 @@ const WhatIDo = () => {
               </div>
               <div className="what-arrow"></div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
