@@ -9,7 +9,7 @@ const App = () => {
   return (
     <>
       <LoadingProvider>
-        <Suspense>
+        <Suspense> 
           <MainContainer>
             <Suspense>
               <CharacterModel />
